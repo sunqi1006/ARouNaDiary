@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@mipmap/s3_btm_bg2"
+
+    android:paddingTop="10dp"
+
+
+    >
+
+
+
+
+    <ImageView
+        android:id="@+id/img_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@mipmap/s3_plaza2"
+        />
+
+    <ImageView
+        android:id="@+id/img_discover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@mipmap/sns_discover1"
+        />
+
+
+    <ImageView
+
+        android:id="@+id/img_community"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@mipmap/main_sns"
+        />
+
+
+    <ImageView
+        android:id="@+id/img_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@mipmap/s3_feed"
+        />
+    <ImageView
+        android:id="@+id/img_mine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@mipmap/s3_mine"
+        />
+</LinearLayout>
